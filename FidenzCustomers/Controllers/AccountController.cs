@@ -114,6 +114,10 @@ namespace FidenzCustomers.Controllers
         public IActionResult GetUser()
         {
             var accessToken = Request.Headers[HeaderNames.Authorization];
+            if(accessToken.Count == 0)
+            {
+                return BadRequest("Invalid Token");
+            }
             var token = accessToken.ToString().Split(" ")[1];
             var handler = new JwtSecurityTokenHandler();
             var jsonToken = handler.ReadToken(token);

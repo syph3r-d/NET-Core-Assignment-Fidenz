@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FidenzCustomers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9478979d56f514679d402109ba5951b666ec0eec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3deba24dc68653729a83d5b8aabbb4612baf1a01")]
 [assembly: System.Reflection.AssemblyProductAttribute("FidenzCustomers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FidenzCustomers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
