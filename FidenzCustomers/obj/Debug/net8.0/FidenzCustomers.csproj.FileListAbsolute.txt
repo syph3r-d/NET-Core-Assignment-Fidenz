@@ -137,3 +137,4 @@ D:\Work\Fidenz\Academy\C# .NET\FidenzCustomers\FidenzCustomers\obj\Debug\net8.0\
 D:\Work\Fidenz\Academy\C# .NET\FidenzCustomers\FidenzCustomers\obj\Debug\net8.0\FidenzCustomers.pdb
 D:\Work\Fidenz\Academy\C# .NET\FidenzCustomers\FidenzCustomers\obj\Debug\net8.0\FidenzCustomers.genruntimeconfig.cache
 D:\Work\Fidenz\Academy\C# .NET\FidenzCustomers\FidenzCustomers\obj\Debug\net8.0\ref\FidenzCustomers.dll
+D:\Work\Fidenz\Academy\C# .NET\FidenzCustomers\FidenzCustomers\obj\Debug\net8.0\FidenzCustomers.sourcelink.json
