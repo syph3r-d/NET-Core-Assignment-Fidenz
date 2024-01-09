@@ -32,6 +32,11 @@ const Login = () => {
           </div>
         </div>
         <div class="card-body p-4">
+          <div className="row">
+            <div className="col-md-12 text-danger">
+              {userState.error && userState.error}
+            </div>
+          </div>
           <div class="row">
             <div class="col-md-12">
               <section>

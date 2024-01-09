@@ -1,27 +1,29 @@
 import { createContext, useReducer,useContext } from "react";
+import { ERROR, GET_USER, LOADING, LOGIN, LOGOUT } from "./actions";
+import { TOKEN_KEY } from "../utils/constants";
 
 const initialState = {
   user: null,
-  token: localStorage.getItem("token"),
+  token: localStorage.getItem(TOKEN_KEY),
   error: false,
   loading: false,
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case "LOADING":
+    case LOADING:
       return {
         ...state,
         loading: true,
         error: false,
       };
-    case "LOGIN":
+    case LOGIN:
       return {
         ...state,
         token: action.payload.token,
         error:false,
       };
-    case "LOGOUT":
+    case LOGOUT:
       return {
         ...state,
         user: null,
@@ -29,13 +31,13 @@ const reducer = (state = initialState, action) => {
         loading: false,
         error: false,
       };
-    case "GET_USER":
+    case GET_USER:
       return {
         ...state,
         user: action.payload,
         loading: false,
       };
-    case "ERROR":
+    case ERROR:
       return {
         ...state,
         loading: false,

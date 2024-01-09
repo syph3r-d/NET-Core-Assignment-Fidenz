@@ -1,0 +1,14 @@
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\bin\Debug\net8.0\FidenzDashboard.Data.deps.json
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\bin\Debug\net8.0\FidenzDashboard.Data.runtimeconfig.json
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\bin\Debug\net8.0\FidenzDashboard.Data.dll
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\bin\Debug\net8.0\FidenzDashboard.Data.pdb
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.csproj.AssemblyReference.cache
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.AssemblyInfoInputs.cache
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.AssemblyInfo.cs
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.csproj.CoreCompileInputs.cache
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.dll
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\refint\FidenzDashboard.Data.dll
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.pdb
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\FidenzDashboard.Data.genruntimeconfig.cache
+D:\Work\Fidenz\Academy\C# .NET\FidenzDashboard.API\FidenzDashboard.Data\obj\Debug\net8.0\ref\FidenzDashboard.Data.dll

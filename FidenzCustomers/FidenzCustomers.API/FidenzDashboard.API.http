@@ -1,0 +1,6 @@
+@FidenzDashboard.API_HostAddress = http://localhost:5287
+
+GET {{FidenzDashboard.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
