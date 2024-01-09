@@ -40,7 +40,6 @@ namespace FidenzCustomers.Application.Managers
         public void UpdateCustomer(CustomerUpdateDto customer)
         {
            var oldCustomer = _customerRepository.Get(c => c.CustomerId == customer.CustomerId, "Address");
-            var newCustomer = _mapper.Map(customer, oldCustomer);
             _customerRepository.UpdateCustomer(_mapper.Map(customer, oldCustomer));
         }
 

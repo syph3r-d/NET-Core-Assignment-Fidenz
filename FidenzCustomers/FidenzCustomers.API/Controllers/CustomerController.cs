@@ -16,12 +16,10 @@ namespace FidenzCustomers.API.Controllers
     [Authorize]
     public class CustomersController : ControllerBase
     {
-        private readonly IMapper _mapper;
         private ICustomerManager _customerManager;
 
-        public CustomersController(ICustomerManager customerManager, IMapper mapper)
+        public CustomersController(ICustomerManager customerManager)
         {
-            _mapper = mapper;
             _customerManager = customerManager;
         }
 
@@ -58,8 +56,6 @@ namespace FidenzCustomers.API.Controllers
                 }
                 if (ModelState.IsValid)
                 {
-                    //map oldcustomer to customer
-                    //_mapper.Map<CustomerUpdateDto,Customer>(customer, oldCustomer);
                     _customerManager.UpdateCustomer(customer);
                     return Ok();
 
