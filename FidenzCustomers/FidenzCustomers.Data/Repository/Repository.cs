@@ -1,6 +1,6 @@
 ﻿using FidenzCustomers.Data.Common.Interfaces;
+using FidenzCustomers.Data.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Linq.Expressions;
 
 namespace FidenzCustomers.Data.Repository

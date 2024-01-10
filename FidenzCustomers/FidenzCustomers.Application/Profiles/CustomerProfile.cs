@@ -1,6 +1,6 @@
-﻿using FidenzCustomers.Application.DTOs;
+﻿using AutoMapper;
+using FidenzCustomers.Application.DTOs;
 using FidenzCustomers.Data.Models;
-using AutoMapper;
 
 
 namespace FidenzCustomers.Application.Profiles
@@ -11,7 +11,7 @@ namespace FidenzCustomers.Application.Profiles
         {
             CreateMap<Customer, CustomerUpdateDto>();
             CreateMap<CustomerUpdateDto, Customer>()
-                .ForAllMembers(o => o.Condition((src,dest,srcmember,destmember)=>srcmember !=null));
+                .ForAllMembers(o => o.Condition((src, dest, srcmember, destmember) => srcmember != null));
             CreateMap<Customer, CustomerDto>();
             CreateMap<CustomerDto, Customer>();
             CreateMap<Address, AddressDto>();

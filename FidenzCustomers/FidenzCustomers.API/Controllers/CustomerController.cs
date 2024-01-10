@@ -14,9 +14,9 @@ namespace FidenzCustomers.API.Controllers
     [Authorize]
     public class CustomersController : ControllerBase
     {
-        private ICustomerManager _customerManager;
+        private ICustomerService _customerManager;
 
-        public CustomersController(ICustomerManager customerManager)
+        public CustomersController(ICustomerService customerManager)
         {
             _customerManager = customerManager;
         }

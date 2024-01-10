@@ -1,7 +1,7 @@
+using Asp.Versioning;
 using FidenzCustomers.API.Common.Utility;
 using FidenzCustomers.Application.Common.Interfaces;
 using FidenzCustomers.Application.Managers;
-using FidenzCustomers.Data;
 using FidenzCustomers.Data.Common.Interfaces;
 using FidenzCustomers.Data.Models;
 using FidenzCustomers.Data.Repository;
@@ -11,7 +11,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using Asp.Versioning;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -82,7 +81,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<ICustomerManager, CustomerManager>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 

@@ -8,12 +8,12 @@ namespace FidenzCustomers.Application.Managers
 {
 
 
-    public class CustomerManager : ICustomerManager
+    public class CustomerService : ICustomerService
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly IMapper _mapper;
 
-        public CustomerManager(ICustomerRepository customerRepository, IMapper mapper)
+        public CustomerService(ICustomerRepository customerRepository, IMapper mapper)
         {
             _customerRepository = customerRepository;
             _mapper = mapper;
@@ -21,7 +21,7 @@ namespace FidenzCustomers.Application.Managers
 
         public IEnumerable<CustomerDto> GetAllCustomers()
         {
-            var res = _customerRepository.GetAll(null);
+            var res = _customerRepository.GetAll(null, "Address");
             return _mapper.Map<IEnumerable<CustomerDto>>(res);
         }
 
