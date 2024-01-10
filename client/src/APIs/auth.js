@@ -10,7 +10,6 @@ import {
 } from "../context/actions";
 import { TOKEN_KEY } from "../utils/constants";
 
-axios.defaults.baseURL = "https://localhost:7158/";
 
 export async function loginUser(dispatch, loginPayload) {
   const requestOptions = {

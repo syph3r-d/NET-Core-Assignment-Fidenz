@@ -1,11 +1,7 @@
 ﻿using FidenzCustomers.Application.DTOs;
 using FidenzCustomers.Data.Models;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace FidenzCustomers.Application.Profiles
 {

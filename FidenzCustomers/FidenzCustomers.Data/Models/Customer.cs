@@ -36,7 +36,7 @@ namespace FidenzCustomers.Data.Models
         [JsonPropertyName("phone")]
         public required string Phone { get; set; }
         [JsonPropertyName("address")]
-        public Address Address { get; set; }
+        public virtual Address Address { get; set; }
         [JsonPropertyName("about")]
         public required string About { get; set; }
         [JsonPropertyName("registered")]

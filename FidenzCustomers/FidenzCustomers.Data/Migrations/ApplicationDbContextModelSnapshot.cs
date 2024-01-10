@@ -52,7 +52,7 @@ namespace FidenzCustomers.Data.Migrations
 
                     b.HasKey("AddressId");
 
-                    b.ToTable("Address");
+                    b.ToTable("Address", (string)null);
 
                     b.HasAnnotation("Relational:JsonPropertyName", "address");
 
@@ -1296,7 +1296,7 @@ namespace FidenzCustomers.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customer");
+                    b.ToTable("Customer", (string)null);
 
                     b.HasData(
                         new

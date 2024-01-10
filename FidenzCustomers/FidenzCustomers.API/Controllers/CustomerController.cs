@@ -1,10 +1,8 @@
 ﻿using Asp.Versioning;
-using AutoMapper;
 using FidenzCustomers.API.Common.Utility;
 using FidenzCustomers.Application.Common.Interfaces;
 using FidenzCustomers.Application.Common.Services;
 using FidenzCustomers.Application.DTOs;
-using FidenzCustomers.Data.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
