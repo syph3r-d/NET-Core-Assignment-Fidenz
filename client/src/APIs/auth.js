@@ -8,7 +8,8 @@ import {
   LOGOUT,
   LOGIN as LOGIN_ACTION,
 } from "../context/actions";
-import { TOKEN_KEY } from "../utils/constants";
+import { TOKEN_KEY, TOKEN_PREFIX } from "../utils/constants";
+
 
 
 export async function loginUser(dispatch, loginPayload) {
@@ -25,7 +26,7 @@ export async function loginUser(dispatch, loginPayload) {
 
     if (data) {
       setAuthToken(data.token);
-      localStorage.setItem(TOKEN_KEY, "Bearer " + data.token);
+      localStorage.setItem(TOKEN_KEY, TOKEN_PREFIX + data.token);
       loadUser(dispatch);
       return data;
     }
